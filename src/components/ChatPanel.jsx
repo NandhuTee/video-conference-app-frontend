@@ -44,7 +44,7 @@ export default function ChatPanel({ roomId, username }) {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="flex-1 p-2 rounded text-black"
+          className="flex-1 p-2 rounded text-white"
           placeholder="Type a message..."
           onKeyDown={(e) => e.key === "Enter" && sendMessage()}
         />
