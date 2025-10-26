@@ -1,17 +1,53 @@
-# React + Vite
+## Frontend – Video Conference App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend provides:
 
-Currently, two official plugins are available:
+- Video conferencing with camera/mic control  
+- Screen sharing  
+- Real-time chat  
+- Task board with drag & drop and done/in-progress status  
+- Collaborative whiteboard  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
 
-## React Compiler
+- **React.js (Vite)**  
+- **Socket.IO Client**  
+- **Tailwind CSS**  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Live Frontend Deployment
 
-## Expanding the ESLint configuration
+You can access the live frontend here:  
+[Frontend App](https://video-conference-app-frontend-f6zvko7ir.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# video-conference-app-frontend
+### Running Locally
+
+1. Clone the repository:
+
+```bash
+it clone https://github.com/NandhuTee/video-conference-app-frontend.git
+cd video-conference-app-frontend
+```
+2. Install dependencies:
+   ```bash
+   npm install```
+   
+3. Create a .env file with the backend URL:
+   ```ini
+   VITE_BACKEND_URL=https://video-conference-app-backend-nz6e.onrender.com```
+
+4.Start the development server:
+```bash npm run dev ```
+
+The app will run on http://localhost:5173 (or the port shown in the console).
+
+Make sure the backend is running and accessible.
+
+```vbnet 
+This gives your mentor a **live link, frontend features, and instructions to run locally**.  
+
+If you want, I can **combine both frontend & backend README sections** into a single **final README** for submission. Do you want me to do that?
+```
+
+
+git clone https://github.com/NandhuTee/video-conference-app-frontend.git
+cd video-conference-app-frontend
