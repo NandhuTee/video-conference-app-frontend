@@ -29,11 +29,11 @@ cd video-conference-app-frontend
 ```
 2. Install dependencies:
    ```bash
-   npm install```
+   npm install
    
 3. Create a .env file with the backend URL:
    ```ini
-   VITE_BACKEND_URL=https://video-conference-app-backend-nz6e.onrender.com```
+   VITE_BACKEND_URL=https://video-conference-app-backend-nz6e.onrender.com
 
 4.Start the development server:
 ```bash npm run dev ```
